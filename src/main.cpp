@@ -17,11 +17,11 @@ buzzer
 
 
 //Wifi configuration
-const char* ssid = "wifi ssid";
-const char* password = "passwod";
+const char* ssid = "ssid";
+const char* password = "password";
 
 //Firbase configuration
-#define API_KEY "api firebase"
+#define API_KEY "api"
 #define DATABASE_URL "url"
 FirebaseData fbdo;
 FirebaseAuth auth;
@@ -165,10 +165,11 @@ void setup() {
     if  (CarsNumber>0){
       CarsNumber--;
    myStepper.step(512);
-    request->send_P(200, "text/html", index_html);}
-    
-        request->send(200, "text/html", "<p>new car is out </p>" \
+           request->send(200, "text/html", "<p>new car is out </p>" \
 "<br><a href=\"/\">Return to Home Page</a>");
+   }
+    
+
 
     
   });
