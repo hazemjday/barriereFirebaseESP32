@@ -21,8 +21,8 @@ const char* ssid = "wifi ssid";
 const char* password = "passwod";
 
 //Firbase configuration
-#define API_KEY "AIzaSyBS-mMXDca7h4pEfauY22GjI5BtqqhOzHY"
-#define DATABASE_URL "https://fir-5b175-default-rtdb.firebaseio.com/"
+#define API_KEY "api firebase"
+#define DATABASE_URL "url"
 FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
